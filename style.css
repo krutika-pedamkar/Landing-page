@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+#nav {
+  background: #333;
+  overflow: auto;
+}
+
+#nav a {
+  color: blue;
+}
+
+.logo {
+  font-size: 18px;
+  padding: 15px 15px;
+}
+
+#nav h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#nav .container {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav ul {
+  list-style: none;
+  float: right;
+}
+
+h1 {
+  float: left;
+}
+
+#nav ul li {
+  float: left;
+}
+
+#nav ul li a {
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+#nav ul li a:hover {
+  background: #444;
+  color: #f7c08a;
+}
+
+#showcase {
+  background: url(./showcase.jpg);
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: aliceblue;
+  text-align: center;
+  padding: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .form-group {
+  margin-bottom: 20px;
+  margin-left: 32%;
+}
+
+input[type="email"] {
+  width: 40%;
+  height: 50px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-weight: 400px;
+  font-size: medium;
+  outline: none;
+  display: inline-block;
+  border: none;
+}
+input[type="button"] {
+  width: 120px;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-weight: 400px;
+  font-size: medium;
+  outline: none;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  opacity: 0.65;
+}
+
+#features {
+  height: 50vh;
+  background-color: thistle;
+}
+
+.box {
+  margin-top: 35px;
+  float: left;
+  padding: 50px;
+  width: 33%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+#features .color {
+  background: #ddd4b93;
+}
+
+#home-info {
+  height: 60vh;
+}
+
+#home-info .info-img-1 {
+  float: right;
+  width: 50%;
+  background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg)
+    center center/cover no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: start;
+  padding: 8rem;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto !important;
+  margin-bottom: 0 !important;
+}
+
+#home-info .info-content p {
+  padding-bottom: 50px;
+}
+
+#home-info .info-img-2 {
+  float: left;
+  width: 50%;
+  background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg)
+    center center/cover no-repeat;
+  min-height: 100%;
+}
+.format {
+}
+.info-contents {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 40px 30px;
+  background-color: white;
+  flex-shrink: 0;
+  line-height: 1.2;
+}
+.info-content p {
+  padding-bottom: 30px;
+}
+#home-info .info-img-3 {
+  float: right;
+  width: 50%;
+  background: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg)
+    center center/cover no-repeat;
+  min-height: 100%;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.flex-item {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+  flex-wrap: no-wrap;
+}
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.icons h2 {
+  font-size: 40px;
+  margin: 20px 0;
+  display: inline-block;
+}
+ .people {
+  border-radius: 50% !important;
+  margin-bottom: 10px;
+  max-width: 12rem;
+  box-shadow: 0px 0px 9px grey;
+}
+.icons {
+ 
+  height: 600px;
+}
+.icons > div {padding: 20px;}
+.icons h5 {
+  font-weight: bold;
+}
+.icons p{
+  padding: 10px
+}
+.flex-item > div {
+  padding:61px;
+}
+
+#main-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(17, 16, 16);
+  color: rgb(212, 171, 171);
+  text-align: center;
+  height: 5%;
+}
+
+.clr {
+  clear: both;
+}
